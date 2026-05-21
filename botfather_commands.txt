@@ -1,0 +1,11 @@
+start - Start the bot
+signup - Create your profile
+login - Log in
+logout - Log out
+addwords - Add vocabulary list
+newgame - Create a new 20-word game
+round - Start a 5-question round
+review - Repeat words with 3 mistakes
+examples - Show examples of word usage
+score - Show your progress
+help - Show help

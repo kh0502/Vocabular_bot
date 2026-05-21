@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:16
+    container_name: vocab_game_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: vocab_game_bot
+    ports:
+      - "5432:5432"
+    volumes:
+      - vocab_game_pgdata:/var/lib/postgresql/data
+
+volumes:
+  vocab_game_pgdata:
